@@ -602,9 +602,9 @@ img {
 
 /*
 ============================
-Name: Eventify- Event And Conference Templete
+Name: Eventify- Event and Conference Templete
 Version: 2.0.0
-Description: Eventify- Event And Conference Templete
+Description: Eventify- Event and Conference Templete
 Author: alithemes
 Author URI: https://themeforest.net/user/alithemes/portfolio
 Location:
@@ -5441,7 +5441,7 @@ Location:
   margin-bottom: 30px;
 }
 .bloginner-section-area .blog4-boxarea:hover .img1 img {
-  transform: scale(1.1) rotate(-4deg);
+  /* transform: scale(1.1) rotate(-4deg); */
   transition: all 0.4s;
 }
 .bloginner-section-area .blog4-boxarea .img1 {
@@ -5548,7 +5548,7 @@ Location:
 .bloginner-section-area .blog4-boxarea .content-area .readmore {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 26px;
@@ -6416,7 +6416,7 @@ Location:
 .footer3-sertion-area .footer-logo-area p {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font2);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: 16px;
   /* font-style: normal; */
   font-weight: var(--ztc-weight-medium);
   line-height: 26px;
@@ -6510,10 +6510,10 @@ Location:
 .footer3-sertion-area .link-content2 ul li a {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
-  line-height: 30px;
+  line-height: 24px;
   display: flex;
   transition: all 0.4s;
   padding-top: 24px;
@@ -6615,7 +6615,7 @@ Location:
   color: var(--ztc-text-text-1) !important;
   text-align: center;
   font-family: var(--ztc-family-font2);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: 16px;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 28px;
@@ -12507,10 +12507,10 @@ Location:
 .attent10-section-area .event6-widget-boxarea .content-area h3 {
   color: white;
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s32);
+  font-size: 30px;
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
-  line-height: 42px;
+  line-height: 37px;
   font-style: italic;
   letter-spacing: -0.64px;
 }
@@ -12937,7 +12937,7 @@ Location:
   text-align: center;
   border-radius: 16px;
   background: #FFF;
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
   height: 100%;
   padding: 28px;
   transition: all 0.4s;
@@ -13978,7 +13978,7 @@ Location:
 }
 
 /*============= TIMER CSS AREA ENDS ===============*/
-/*============= BRANDS CSS AREA STARTS ===============*/
+/*============= BRandS CSS AREA STARTS ===============*/
 .brands1-section-area {
   position: relative;
   z-index: 1;
@@ -14333,7 +14333,7 @@ Location:
   margin: 0 auto;
 }
 
-/*============= BRANDS CSS AREA ENDS ===============*/
+/*============= BRandS CSS AREA ENDS ===============*/
 /*============= HEADER SEARCH CSS AREA STARTS ===============*/
 .header-search-container form input {
   outline: none;
@@ -15573,7 +15573,7 @@ Location:
   content: "";
   height: 93%;
   width: 1px;
-  left: 45.7%;
+  left: 45.5%;
   top: 0;
   transition: all 0.4s;
   background: #E6E7E8;
@@ -17280,7 +17280,7 @@ Location:
   color: var(--ztc-text-text-3);
   /* text-align: center; */
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: 17px;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 24px; /* 100% */
@@ -19198,7 +19198,7 @@ Location:
 .testimonials7-section-area .testimonial-content-slider7 .testimonial-widget-box p {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s20);
+  font-size: 18px;
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 30px;
@@ -24360,4 +24360,25 @@ color: black;
   .speakesr-details-content p{
     margin-bottom:20px;
   }
+.input-area input::placeholder{
+  font-size: 15px !important;
+}
+textarea::placeholder{
+  font-size: 15px !important;
+}
+.search-icon img{
+  width: 25px;
+}
+.btn-area ul li .facebook i{
+  color: #008ddf;
+}
+.btn-area ul li .instagram i{
+  color: #c63287;
+}
+.btn-area ul li .linkedin i{
+  color: #0076b2;
+}
+.btn-area ul li .whatsapp i{
+  color: green;
+}
 /*============= MEMORY CSS AREA ===============*//*# sourceMappingURL=main.css.map */

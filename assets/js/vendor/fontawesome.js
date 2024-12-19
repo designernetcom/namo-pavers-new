@@ -790,7 +790,7 @@
 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
    * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-   * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE and
    * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
    * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
    * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
@@ -1803,7 +1803,7 @@
     return typeof i2svg === 'string';
   }
 
-  function hasPrefixAndIcon(node) {
+  function hasPrefixandIcon(node) {
     var prefix = node.getAttribute ? node.getAttribute(DATA_PREFIX) : null;
     var icon = node.getAttribute ? node.getAttribute(DATA_ICON) : null;
     return prefix && icon;
@@ -1985,7 +1985,7 @@
         }
 
         if (mutationRecord.type === 'attributes' && isWatched(mutationRecord.target) && ~ATTRIBUTES_WATCHED_FOR_MUTATION.indexOf(mutationRecord.attributeName)) {
-          if (mutationRecord.attributeName === 'class' && hasPrefixAndIcon(mutationRecord.target)) {
+          if (mutationRecord.attributeName === 'class' && hasPrefixandIcon(mutationRecord.target)) {
             var _getCanonicalIcon = getCanonicalIcon(classArray(mutationRecord.target)),
                 prefix = _getCanonicalIcon.prefix,
                 iconName = _getCanonicalIcon.iconName;
