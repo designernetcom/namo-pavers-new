@@ -8701,9 +8701,7 @@ Location:
   color: var(--ztc-text-text-2);
 }
 
-.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a:last-child {
-  /* border-bottom: none; */
-}
+
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a::after {
   position: absolute;
   content: "";
@@ -24394,6 +24392,11 @@ textarea::placeholder{
     text-align: center;
     padding-top: 10px;
     font-size: 19px;
+}
+
+
+.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li:last-child a{
+  border-bottom: none ;
 }
 
 /*============= MEMORY CSS AREA ===============*//*# sourceMappingURL=main.css.map */
