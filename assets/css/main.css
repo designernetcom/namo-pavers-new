@@ -8701,9 +8701,7 @@ Location:
   color: var(--ztc-text-text-2);
 }
 
-.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a:last-child {
-  /* border-bottom: none; */
-}
+
 .homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li a::after {
   position: absolute;
   content: "";
@@ -19148,7 +19146,7 @@ Location:
   position: relative;
   z-index: 1;
   border-radius: var(--rounded-lg, 8px);
-  border: 1px solid rgba(26, 23, 25, 0.05);
+  border: 1px solid rgb(26 23 25 / 28%);
   padding: 32px 24px;
   transition: all 0.4s;
 }
@@ -19732,7 +19730,7 @@ Location:
   margin: 0 4px 0 0;
 }
 .about4-section-area .about4-heading {
-  padding: 0 0 0 50px;
+  padding: 0 0 0 20px;
 }
 @media (max-width: 767px) {
   .about4-section-area .about4-heading {
@@ -19747,7 +19745,7 @@ Location:
   }
 }
 .about4-section-area .about4-heading ul li {
-  color: var(--ztc-text-text-11);
+  color: #282828;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
@@ -19762,7 +19760,7 @@ Location:
   }
 }
 .about4-section-area .about4-heading ul li img {
-  margin: 0 8px 0 0;
+  margin: 0 15px 0 0;
 }
 
 .about6-section-area {
@@ -24396,4 +24394,55 @@ textarea::placeholder{
     font-size: 19px;
 }
 
+
+.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li ul.dropdown-padding li:last-child a{
+  border-bottom: none ;
+}
+.founder h2{
+  font-size: 32px;
+  padding-bottom: 10px;
+  font-weight: 600px;
+}
+.founder h3{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.founder p{
+  padding-bottom: 10px;
+}
+.about33 img{
+  border:1px solid #bdbdbd;
+  border-radius: 100%;
+}
+.box1{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+  padding: 30px;
+  background: #ebebeb;
+}
+.box1 .founder{
+  padding-left: 20px;
+}
+.choose-section-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about4-heading ul li{
+  display: flex;
+  align-items: baseline;
+}
+.dataa h6{
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+}
+.dataa p{
+  font-size: 17px;
+  padding-top: 5px;
+}
+.about-images img{
+  width: 100%;
+}
+.about4-heading  h2{
+  padding-bottom: 10px;
+}
 /*============= MEMORY CSS AREA ===============*//*# sourceMappingURL=main.css.map */
